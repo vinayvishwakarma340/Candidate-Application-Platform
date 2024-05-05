@@ -1,0 +1,63 @@
+.cardContainer{
+padding: 20px;
+}
+.cardContainer p ,h3{
+    margin: 0;
+}
+.cardHeader{
+    display: flex;
+}
+
+.cardImage{
+    width: 30px;
+    height: auto;
+
+}
+
+.topcontentWrapper *{
+    margin: 0 ;
+    padding: 0 10px ;
+}
+
+.topcontentWrapper>h3{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: #8b8b8b;
+}
+
+.topcontentWrapper>h2{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.topcontentWrapper>p{
+    font-size: 12px;
+}
+
+.cardSalary{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #8b8b8b;
+}
+
+.cardSalary>span{
+    margin-left: 10px;
+}
+
+.jobDescWrapper>h3{
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.jobDescription{
+    height: 250px;
+    overflow: hidden;
+    mask-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+/* .cardContainer :hover{
+transform: scale();
+} */
