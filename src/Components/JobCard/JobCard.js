@@ -54,9 +54,9 @@ export default function JobCard({
         <img className={classes.cardImage} src={logoUrl} alt="logo" />
 
         <div className={classes.topcontentWrapper}>
-          <h3 class="MuiBox-root css-rulwqv">{companyName}</h3>
+          <h3 className="MuiBox-root css-rulwqv">{companyName}</h3>
           <h2>{jobRole}</h2>
-          <p class="cards-sub-text">India | Exp: 5-5 years</p>
+          <p className="cards-sub-text">India | Exp: 5-5 years</p>
         </div>
       </div>
 
